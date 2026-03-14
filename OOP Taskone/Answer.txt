@@ -1,0 +1,10 @@
+Example 1 
+The use of public fields instead of private made them available to be accessed and changed from anywhere .
+Setting these values without validation of whether this field can have this value or not.
+Does not check whether balance is valid or not for transferring method .
+Example 2
+This have the same problems as the previous example in addition to not following the Single-Responsibility principle in the BankApp class since it tries to handle the transaction process . 
+Example 3
+The following code does not follow the Single-Responsibility principle .
+Not using a constructor to instantiate new objects .
+Fields are public .
